@@ -1,0 +1,9 @@
+services:
+  airflow-scheduler:
+    volumes:
+      - "Z:/Power BI/Airflow/etl:/usr/local/airflow/etl"
+      #- ./etl:/usr/local/airflow/etl
+  airflow-dag-processor:
+    volumes:
+      - "Z:/Power BI/Airflow/etl:/usr/local/airflow/etl"
+      #- ./etl:/usr/local/airflow/etl
